@@ -14,6 +14,8 @@
 		E91A57712272DCE800E22323 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91A576F2272DCE800E22323 /* LaunchScreen.storyboard */; };
 		E91A577C2272DCE800E22323 /* LoadImagesFromApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A577B2272DCE800E22323 /* LoadImagesFromApiTests.swift */; };
 		E91A57872272DCE800E22323 /* LoadImagesFromApiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A57862272DCE800E22323 /* LoadImagesFromApiUITests.swift */; };
+		E9C205AC2272F0A900D6C573 /* StructFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C205AB2272F0A900D6C573 /* StructFile.swift */; };
+		E9C205AE2272F13500D6C573 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C205AD2272F13500D6C573 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E91A57822272DCE800E22323 /* LoadImagesFromApiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadImagesFromApiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91A57862272DCE800E22323 /* LoadImagesFromApiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadImagesFromApiUITests.swift; sourceTree = "<group>"; };
 		E91A57882272DCE800E22323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9C205AB2272F0A900D6C573 /* StructFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructFile.swift; sourceTree = "<group>"; };
+		E9C205AD2272F13500D6C573 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				E91A576D2272DCE800E22323 /* Assets.xcassets */,
 				E91A576F2272DCE800E22323 /* LaunchScreen.storyboard */,
 				E91A57722272DCE800E22323 /* Info.plist */,
+				E9C205AB2272F0A900D6C573 /* StructFile.swift */,
+				E9C205AD2272F13500D6C573 /* CollectionViewCell.swift */,
 			);
 			path = LoadImagesFromApi;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			files = (
 				E91A57692272DCE600E22323 /* ViewController.swift in Sources */,
 				E91A57672272DCE600E22323 /* AppDelegate.swift in Sources */,
+				E9C205AE2272F13500D6C573 /* CollectionViewCell.swift in Sources */,
+				E9C205AC2272F0A900D6C573 /* StructFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
